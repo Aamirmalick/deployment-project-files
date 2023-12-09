@@ -22,7 +22,7 @@ public class HelloSpringbootApplication {
 
 	@GetMapping(value = "/test")
 	public ResponseEntity<?> getTest() {
-		return ResponseEntity.ok("Welcome to the Springboot Cloud Deployment Apps!....");
+		return ResponseEntity.ok("<b> Welcome to the Springboot Cloud Deployment Apps!.... </b>");
 	}
 
 }
